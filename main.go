@@ -5,11 +5,22 @@ import (
 )
 
 func main() {
-	arr := [5]int{5, 66, 7, 100, 1}
+	// score := 10
+	// if score > 10 {
+	// 	if score >= 15 {
+	// 		fmt.Println("Perfect")
+	// 	} else {
+	// 		fmt.Println("Well done")
+	// 	}
+	// } else {
+	// 	fmt.Println("try again")
+	// }
 
-	fmt.Println("Нулевой элемент;", arr[0])
+	subscribed := false
 
-	arr[0] *= 5
-
-	fmt.Println(arr)
+	if subscribed {
+		fmt.Println("YES")
+	} else {
+		fmt.Println("NO")
+	}
 }
